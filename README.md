@@ -27,22 +27,5 @@ Los paquetes necessarios se encuentran listados en el archivo *requirements.txt*
 - Desactivar el entorno virtual: `deactivate`
 - Eliminar le entorno virtual (opcional): `rm -rf venv`
 
-### Estructura del proyecto
-
-El proyecto MNIST se organiza de la siguiente manera:
-- naivenn/
-    - data/
-      - mnist.pkl.gz
-    - run/
-    - src/
-      - __init__.py
-      - mnist.py
-      - nnnumpy.py
-      - nntorch.py
-      - nn.py
-      - scalar.py
-      - vector.py
-    - venv/
-    - Dockerfile
-    - README.md
-    - requirements.txt
+### CEIA - FIUBA
+Este repositorio forma parte del proyecto final de la materia de Aprendizaje de Máquina 1. Materia que se dicta en la Carrera de Especialización en Inteligencia Artificial, en la Facultad de Ingeniería de la Universidad de Buenos Aires. El proyecto trata con el dataset MNNIST y la implementación de redes neuronales para el entrenamiento del modelo. El lector debe referirse a las *notebooks* en jupyter (.ipynb) tales como: *analysis*, *model* y *augmentation* para el anaálisis estadístico, el entrenamiento del modelo y el proceso de *data augmentation*, respectivamente. Luego, dentro de la carpeta `src/` se encuentra el código fuente o desarrollos propios, lo cual se invita a explorar en caso de querer entender lo que se realizó en los jupiter notebooks.
